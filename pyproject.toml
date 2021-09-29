@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "url_shortener"
+version = "0.1.0"
+description = ""
+authors = ["Yoni Jacobi <yoni-j@drorisrael.org.il>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.1"
+python-dotenv = "^0.19.0"
+Flask-Simple-GeoIP = "^0.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
